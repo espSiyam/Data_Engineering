@@ -16,7 +16,8 @@
 **mysql+pymysql://{user}:{password}@{ip}/{database_name}**
 
 ### Input example for REST API ("key" : "value"): 
-foods : ['Signature Beef', 'Spicy Chicken (GS)', BeefiChicken Pastrami; Poached Egg', 'Supreme.', 'Veggie Lovers', 'Bbq Temptation .', 'Lemon Iced Tea']
-locations : ['Mirpur', 'Cox Bazar', 'Dhanmondi', 'Gulshan', 'Bhatara', 'Khilgaon', 'RM Center', 'Jamuna', 'Mohammadpur', 'Mirpur TFC', 'Adabor']
-min_price: 100
-max_price: 320
+
+* foods : ['Signature Beef', 'Spicy Chicken (GS)', BeefiChicken Pastrami; Poached Egg', 'Supreme.', 'Veggie Lovers', 'Bbq Temptation .', 'Lemon Iced Tea']
+* locations : ['Mirpur', 'Cox Bazar', 'Dhanmondi', 'Gulshan', 'Bhatara', 'Khilgaon', 'RM Center', 'Jamuna', 'Mohammadpur', 'Mirpur TFC', 'Adabor']
+* min_price: 100
+* max_price: 320
