@@ -12,6 +12,11 @@
 
 ![Process Diagram](https://github.com/espSiyam/Data_Engineering/blob/main/data/Data%20%20Engineering.jpg)
 
-To use this script, db credential will be required. The format is:
-
+### To use this script, db credential will be required. The format is:
 **mysql+pymysql://{user}:{password}@{ip}/{database_name}**
+
+### Input example for REST API ("key" : "value"): 
+foods : ['Signature Beef', 'Spicy Chicken (GS)', BeefiChicken Pastrami; Poached Egg', 'Supreme.', 'Veggie Lovers', 'Bbq Temptation .', 'Lemon Iced Tea']
+locations : ['Mirpur', 'Cox Bazar', 'Dhanmondi', 'Gulshan', 'Bhatara', 'Khilgaon', 'RM Center', 'Jamuna', 'Mohammadpur', 'Mirpur TFC', 'Adabor']
+min_price: 100
+max_price: 320
