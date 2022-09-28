@@ -21,3 +21,12 @@
 * locations : ['Mirpur', 'Cox Bazar', 'Dhanmondi', 'Gulshan', 'Bhatara', 'Khilgaon', 'RM Center', 'Jamuna', 'Mohammadpur', 'Mirpur TFC', 'Adabor']
 * min_price: 100
 * max_price: 320
+
+### Challenges:
+The most challenging part for me scrapping chillox's menu as the platform was [Facebook](https://www.facebook.com/chillox.burgers/) and there wasn't any pattern to find the menu, price and location data. So insted, 
+
+1. I've navigated to menu image and download the image with the help of selenium.
+2. Applied OCR (easyocr) to extract text from images
+3. Applied custom algorithm to keep just relevent informations (product name and price)
+
+However, this automation resulted in poor quality data. Insted of applying algorithm to keep relevent data, manually picking index of product name and price would be better choice. 
